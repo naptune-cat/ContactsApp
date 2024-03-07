@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Contacts</string>
+    <string name="i_agree_to_the_terms_amp_conditions"><![CDATA[I agree to the Terms & Conditions.]]></string>
+    <string name="send_otp">Send OTP</string>
+    <string name="hint_gmail">abc@gmail.com</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Sign Up</string>
 </resources>
