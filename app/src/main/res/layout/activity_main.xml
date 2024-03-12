@@ -38,6 +38,7 @@
             android:layout_marginTop="30dp"
             android:fontFamily="serif-monospace"/>
         <EditText
+            android:id="@+id/etName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Jason Lee"
@@ -50,12 +51,15 @@
             android:layout_marginTop="30dp"
             android:fontFamily="serif-monospace"/>
         <EditText
+            android:id="@+id/etNum"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="1234567890"
+            android:maxLength="10"
             android:inputType="phone"
             android:textSize="25sp"/>
         <Button
+            android:id="@+id/addContact"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#F8C148"
